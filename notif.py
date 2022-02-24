@@ -39,7 +39,7 @@ def send_notification():
 def start():
     while True:
         send_notification()
-        print("waiting for {timeout} seconds.")
+        print(f"waiting for {timeout} seconds.")
         time.sleep(timeout)
 
 
