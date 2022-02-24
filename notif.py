@@ -14,7 +14,7 @@ old_headlines = set()
 def send_single_notif(headline):
     print("showing notification.")
     notification.notify(
-        title="HEADING",
+        title="Russia and Ukraine",
         message=headline,
         app_name="RvU",
         timeout=20,
