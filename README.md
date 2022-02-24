@@ -3,4 +3,8 @@ Live news notification from CNN
 
 To use the app, you need to have python installed and should subscribe to [scraper api](https://www.scraperapi.com/), and save it into `.env` file in the following format `API_KEY=<Your API Key>`
 
-To start the app run `python notif.py`
+To start the app run
+```
+pip install -r requirements.txt
+python notif.py
+```
